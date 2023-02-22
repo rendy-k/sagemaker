@@ -1,0 +1,24 @@
+# Loan prediction
+# Single prediction
+ {
+     "data": [
+         {
+             "features": ["LP002537","Male","Yes","0","Graduate","No",2083,3150.0,128.0,360.0,1.0,"Semiurban"]
+         }
+    ]
+}
+
+# Multiple predictions
+ {
+     "data": [
+         {
+             "features": ["LP001630","Male","No","0","Not Graduate","No",2333,1451.0,102.0,480.0,0.0,"Urban"]            
+         },
+         {
+             "features": ["LP002190","Male","Yes","1","Graduate","No",6325,0.0,175.0,360.0,1.0,"Semiurban"]
+         },
+         {
+             "features": ["LP002807","Male","Yes","2","Not Graduate","No",3675,242.0,108.0,360.0,1.0,"Semiurban"]
+         }
+    ]
+}
